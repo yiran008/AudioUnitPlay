@@ -333,6 +333,12 @@ static OSStatus inputRenderCallback (
 - (void)stop
 {
     OSStatus status = AudioOutputUnitStop(outputUnit);
+    soundStructInfo.sampleNumber = 0;
+}
+
+-(void)pause
+{
+    OSStatus status = AudioOutputUnitStop(outputUnit);
 }
 
 - (void)dealloc

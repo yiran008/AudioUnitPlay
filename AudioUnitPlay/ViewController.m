@@ -34,4 +34,7 @@
 - (IBAction)stop:(id)sender {
     [player stop];
 }
+- (IBAction)pause:(id)sender {
+    [player pause];
+}
 @end

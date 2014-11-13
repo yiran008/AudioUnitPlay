@@ -27,4 +27,5 @@ typedef struct {
 
 - (void)play;
 - (void)stop;
+- (void)pause;
 @end
